@@ -15,19 +15,19 @@
 
 
 .App-header {
-  background-color: #3a0194d2;
+  background-color: rgba(47, 73, 151, 0.808);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family:  monospace;
-  color: blueviolet;
+  font-family:  lobster, monospace;
+  color: indigo;
 }
 
 .App-link {
-  color: #5c34ec;
+  color: black;
 }
 
 @keyframes App-logo-spin {
