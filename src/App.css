@@ -1,3 +1,11 @@
+
+body {
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/72/84/4657b98ace28ed4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
 .App {
   text-align: center;
 }
@@ -15,19 +23,32 @@
 
 
 .App-header {
-  background-color: rgba(47, 73, 151, 0.808);
+  background-color: rgba(48, 67, 131, 0.616);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family:  lobster, monospace;
-  color: indigo;
+  font-family:  sans-serif, monospace;
+  color: white;
+}
+
+.App-paragraph {
+  margin: -20px 0 20px 0;
 }
 
 .App-link {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 20px;
   color: black;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 3px 16px 3px 16px;
+  box-shadow: 0 10px 20px rgba(33, 22, 48, 0.712), 0 6px 6px rgba(0, 0, 0, 0.712);
 }
 
 @keyframes App-logo-spin {
