@@ -43,14 +43,18 @@ body {
   text-decoration: none;
   font-weight: 550;
   font-size: 20px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: rgba(43, 43, 43, 0.795);
   border-radius: 20px;
   margin-top: 10px;
   padding: 3px 16px 3px 16px;
-  box-shadow: 0 10px 20px rgba(33, 22, 48, 0.712), 0 6px 6px rgba(0, 0, 0, 0.712);
+  box-shadow: 0 10px 20px rgba(122, 121, 122, 0.623), 0 6px 6px rgba(122, 121, 122, 0.623);
 }
 
+.App-link:active {
+  /* background-color: rgba(94, 6, 177, 0.658); */
+  background-image: linear-gradient(to right, rgba(120, 31, 202, 0.733), rgba(9, 9, 126, 0.733));
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
