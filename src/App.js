@@ -19,26 +19,32 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src= {imgurl}></img>
-        <h1>
-          <strong>HELLO!</strong>
+        <h1 class= "App-heading">
+          <strong>HELLO! I'M THULASI</strong>
         </h1>
         
-        <p class= "App-paragraph">
-         Welcome to Thulasi's Website
+        <h2 class= "App-heading2">
+          Biomedical Engineering Student
+        </h2>
+
+        <p class= "App-paragraph">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+  Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+  Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+  Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+  Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  
+        <img class= "Img" src= {imgurl}></img>
         {/* {pokemon.results.map(p => {
           return p.name+", ";
         })} */}
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=VtguFyOdj2g"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class= "App-link">
           Click to be blessed by Godwano
         </a>
       </header>
+     
+    
+
+         
     </div>
   );
 }
