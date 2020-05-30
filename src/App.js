@@ -38,7 +38,7 @@ function App() {
           return p.name+", ";
         })} */}
         <a class= "App-link">
-          Click to be blessed by Godwano
+          About Me
         </a>
       </header>
      
