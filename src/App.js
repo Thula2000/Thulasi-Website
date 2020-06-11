@@ -29,14 +29,14 @@ function App() {
           </div>
         </div>
         <Switch>
-          <Route path="/">
-            <Home></Home>
-          </Route>
           <Route path="/about">
             <About></About>
           </Route>
           <Route path="/v">
             <Videos></Videos>
+          </Route>
+          <Route path="/">
+            <Home></Home>
           </Route>
         </Switch>
       </div>
