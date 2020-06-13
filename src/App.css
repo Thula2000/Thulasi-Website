@@ -168,6 +168,7 @@
 
 .app-link:active {
   /* background-color: rgba(94, 6, 177, 0.658); */
+  transform: scale(0.9);
   color: rgba(190, 183, 183, 0.308);
   background-image: linear-gradient(
     to right,
