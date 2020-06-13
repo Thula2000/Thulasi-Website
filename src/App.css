@@ -29,14 +29,14 @@
   margin-left: -500px;
   margin-bottom: -40px;
   margin-top: 100px;
-  font-size: 20px;
-  color: rgba(60, 17, 139, 0.904);
+  font-size: 15px;
+  color: rgba(52, 8, 109, 0.863);
 }
 .app-heading2 {
   margin: 60px 0 -60px -500px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
-  color: black;
+  color: rgba(8, 43, 28, 0.795);
   animation-name: fade;
   animation-duration: 2s;
   opacity: 1;
@@ -44,7 +44,7 @@
 
 .app-paragraph {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 17px;
   margin: 100px 600px 0 100px;
   text-align: center;
 }
@@ -53,37 +53,6 @@
   margin-left: 1000px;
   margin-top: -180px;
   height: 200px;
-}
-.app-link {
-  font-family: Arial, sans-serif;
-  text-decoration: none;
-  font-weight: 550;
-  font-size: 20px;
-  background-color: rgba(27, 27, 27, 0.795);
-  border-radius: 20px;
-  margin-left: -30rem;
-  padding: 3px 16px 3px 16px;
-  box-shadow: 0 10px 20px rgba(122, 121, 122, 0.623),
-    0 6px 6px rgba(122, 121, 122, 0.623);
-  position: right;
-}
-
-.app-link:hover {
-  transform: scale(1.05);
-  background-image: linear-gradient(
-    to right,
-    rgba(162, 92, 228, 0.616),
-    rgba(9, 9, 126, 0.795)
-  );
-}
-
-.app-link:active {
-  /* background-color: rgba(94, 6, 177, 0.658); */
-  background-image: linear-gradient(
-    to right,
-    rgba(147, 64, 224, 0.596),
-    rgba(58, 58, 124, 0.568)
-  );
 }
 
 @keyframes fade {
@@ -125,12 +94,16 @@
   color: rgba(96, 32, 116, 0.966);
   text-decoration: none;
 }
+
+.nav-link:visited a {
+  color: rgba(17, 71, 55, 0.733);
+}
 .nav-link:hover a {
-  color: rgba(170, 50, 110, 0.733);
+  color: rgba(17, 71, 55, 0.733);
 }
 
 .nav-link:active a {
-  color: rgba(170, 50, 110, 0.733);
+  color: rgba(17, 71, 55, 0.733);
 }
 
 .background {
@@ -139,35 +112,99 @@
   left: 0;
   right: 0;
   bottom: 0;
+  background: linear-gradient(
+      rgba(20, 2, 44, 0.753),
+      rgba(60, 15, 109, 0.719),
+      rgba(12, 88, 69, 0.74)
+    ),
+    url(https://i2.wp.com/onaircode.com/wp-content/uploads/2017/11/Constellation.jpg?w=1080&ssl=1);
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+  z-index: -1;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.about {
+  position: relative;
+  top: 100px;
+}
+.app-link {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(107, 33, 124);
+  font-weight: 550;
+  font-size: 20px;
+  border-radius: 7px;
+  border-style: groove;
+  border-color: rgba(57, 15, 92, 0.281);
+  background-color: rgba(34, 31, 29, 0.685);
+  padding: 3px 16px 3px 16px;
+  box-shadow: 0 10px 20px rgba(122, 121, 122, 0.623),
+    0 6px 6px rgba(122, 121, 122, 0.623);
+  position: absolute;
+  top: 5em;
+}
+
+.app-link:hover {
+  transform: scale(1.05);
+  color: rgba(190, 183, 183, 0.308);
   background-image: linear-gradient(
-    rgb(46, 7, 97),
-    rgb(92, 34, 126),
-    rgb(190, 140, 164)
+    to right,
+    rgba(148, 16, 209, 0.473),
+    rgba(13, 13, 121, 0.342)
   );
-  z-index: 0; /* or -1*/
+}
+
+.app-link:active {
+  /* background-color: rgba(94, 6, 177, 0.658); */
+  color: rgba(190, 183, 183, 0.308);
+  background-image: linear-gradient(
+    to right,
+    rgba(148, 16, 209, 0.473),
+    rgba(13, 13, 121, 0.342)
+  );
 }
 .aboutheader {
   color: rgba(187, 121, 170, 0.856);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
   position: relative;
+  left: 100px;
+  right: 200px;
+  top: 10px;
+  text-align: center;
   animation-name: fade;
   animation-duration: 3s;
   opacity: 1;
-  top: 10px;
 }
 
 .aboutheading {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 
 .aboutparagraph {
-  color: rgb(196, 184, 184);
+  color: rgb(235, 231, 231);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 120px;
   animation-name: fade;
   animation-duration: 2s;
   opacity: 1;
